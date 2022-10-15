@@ -1,0 +1,78 @@
+{
+    "provide": [
+      { 
+        "id": 1, 
+        "title": "Visual Design", 
+        "img": "assets/s1.png",
+        "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque vel sit maxime assumenda. maiores, magnam"
+      },
+      { 
+        "id": 2, 
+        "title": "Development", 
+        "img": "assets/s2.png","desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque vel sit maxime assumenda. maiores, magnam"
+      },
+      {
+        "id": 3, 
+        "title": "QA Testing", 
+        "img": "assets/s3.png","desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque vel sit maxime assumenda. maiores, magnam"
+      },
+      { 
+        "id": 4, 
+        "title": "IT Management", 
+        "img": "assets/s4.png",
+        "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque vel sit maxime assumenda. maiores, magnam"
+      },
+      { 
+        "id": 5, "title": "Cyber Security", "img": "assets/s5.png","desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque vel sit maxime assumenda. maiores, magnam"},
+      { "id": 6, "title": "Wireless Connectivity", "img": "assets/s6.png","desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque vel sit maxime assumenda. maiores, magnam"}
+    ],
+    "slide1": [
+      { 
+        "id": 1, 
+        "img": "assets/t2.jpg", 
+        "name": "Evana Doe",
+        "desc":"Web Developer" 
+      },
+      { 
+        "id": 2, 
+        "img": "assets/t3.jpg", 
+        "name": "Bread Mc",
+        "desc":"IT Consulting" 
+      },
+      { 
+        "id": 3, 
+        "img": "assets/t4.jpg", 
+        "name": "Maria Fread",
+        "desc":"UI/UX Designer" 
+      },
+      { 
+        "id": 4, 
+        "img": "assets/t1.jpg", 
+        "name": "John Smith",
+        "desc":"Full Stack Developer" 
+      },
+      { 
+        "id": 3, 
+        "img": "assets/t4.jpg", 
+        "name": "Maria Fread",
+        "desc":"UI/UX Designer" 
+      }
+    ],
+    "slide2":[
+      {
+       "img": "assets/home2-bg.jpg",
+       "head":"Awesome App For Your Modern Lifestyle",
+       "para":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida incididunt ut." 
+      },
+      {
+       "img": "assets/home2-bg1.jpg",
+       "head":"Digital Agency & Marketing",
+       "para":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida incididunt ut." 
+      },
+      {
+       "img": "assets/home2-bg2.jpg",
+       "head":"Make Real-Life Connections With IT",
+       "para":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida incididunt ut." 
+      }
+    ] 
+  }

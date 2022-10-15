@@ -1,0 +1,504 @@
+<app-top-nav></app-top-nav>
+<app-main-nav></app-main-nav>
+<header>
+    <img src="../../../assets/images/11.png">
+    <img src="../../../assets/images/12.png">
+    <img src="../../../assets/images/13.png">
+    <img src="../../../assets/images/14.png">
+    <img src="../../../assets/images/15.png">
+    <img src="../../../assets/images/16.png">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+               <div class="header-info">
+                 <h1>Trusted Effective Service and Solutions</h1>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, et sed do eiusmod tempor incididunt labore dolore magna aliqua.Quis   ipsum suspendisse.</p>
+                 <div><a href="contact">Conect Us</a></div>
+                <div><a href="about">Know More</a></div>
+               </div>
+            </div>
+            <div class="col-lg-6 pop">
+                <img src="../../../assets/images/home-bg-1-img.png" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</header>
+<!-- start avia-provide -->
+<section class="avia-provide">
+    <div class="container">
+     <div class="provide-head">
+         <span>Smart Services</span>
+         <h2>Aiva Provide All Kind Of Tech Solutions</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+     </div>
+
+     <div class="row">
+         <div class="col-lg-4 col-md-6" *ngFor="let coll of collection">
+             <div class="part">
+             <img src="{{coll.img}}">
+             <h5>{{coll.title}}</h5>
+             <p>{{coll.desc}}</p>
+             <a href="about">Read More</a>
+          </div>
+         </div>
+     </div>
+   </div>
+</section>
+<!-- end avia-provide -->
+<!-- start avia compony -->
+<section class="compony">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <span>Our Compony</span>
+                <h2>Innovative It Helping Service All Over the World</h2>
+                <p>It is a long established fact that a reader will be distracted by the rea dable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more or less normal distribution of letters, as opposed to using Content here,content here normal distribution looking at its.</p>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form variations passages.</p>
+                <div>
+                <a href="about">Know More</a>
+               </div>
+            </div>
+            <div class="col-lg-6">
+              <div>
+                 <img src="../../../assets/images/company-img.jpg">
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end avia compony -->
+<!-- start avia-choose -->
+<section class="choose">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="../../../assets/images/choose-img.png" class="img-fluid">
+            </div>
+            <div class="col-lg-6">
+                <div class="collap" (click)="isShow()">
+                    <h5 [class]="{'bgh':bgh}"><i class="fas fa-user-friends mr-3"></i>Great Understanding<i class="fas fa-plus"></i></h5>
+                    <div [class]="{'show':show}">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt sit amet consectetur adipiscing.</div>
+                </div>
+                <div class="collap" (click)="Show()">
+                    <h5 [class]="{'bgh':bghs}"><i class="fas fa-user-friends mr-3"></i>Update Technology<i class="fas fa-plus"></i></h5>
+                    <div [class]="{'show':shows}">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt sit amet consectetur adipiscing.</div>
+                </div>
+                <div class="collap" (click)="isShow()">
+                    <h5 [class]="{'bgh':bgh}"><i class="fas fa-user-friends mr-3"></i>Experienced Team<i class="fas fa-plus"></i></h5>
+                    <div [class]="{'show':show}">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt sit amet consectetur adipiscing.</div>
+                </div>
+                <div class="collap" (click)="isShow()">
+                    <h5 [class]="{'bgh':bgh}"><i class="fas fa-user-friends mr-3"></i>Best Quality Service<i class="fas fa-plus"></i></h5>
+                    <div [class]="{'show':show}">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt sit amet consectetur adipiscing.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end avia-choose -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- start work -->
+<section class="work-process">
+   <div class="container"> 
+     <div class="work-head">
+        <span>Working Process</span>
+        <h2>We Are Popular Because Of Our Way Of Working</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+     </div>
+     <div class="row">
+        <div class="col-lg-3 col-sm-6">
+            <div class="work-part">
+                <div class="work-icon">
+                    <img src="../../../assets/images/p1.png">
+                    <div class="d-none d-lg-block">
+                        <img src="../../../assets/images/next.png">
+                    </div>
+                </div>
+                <div class="work-info">
+                    <h5>Research Product</h5>
+                    <p>Lorem ipsum dolor sit amet, co nsectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="work-part">
+                <div class="work-icon">
+                    <img src="../../../assets/images/p2.png">
+                    <div class="d-none d-lg-block">
+                        <img src="../../../assets/images/next.png">
+                    </div>
+                </div>
+                <div class="work-info">
+                    <h5>User Testing</h5>
+                    <p>Lorem ipsum dolor sit amet, co nsectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="work-part">
+                <div class="work-icon">
+                    <img src="../../../assets/images/p3.png">
+                    <div class="d-none d-lg-block">
+                        <img src="../../../assets/images/next.png">
+                    </div>
+                </div>
+                <div class="work-info">
+                    <h5>Development</h5>
+                    <p>Lorem ipsum dolor sit amet, co nsectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="work-part">
+                <div class="work-icon">
+                    <img src="../../../assets/images/p4.png">
+                </div>
+                <div class="work-info">
+                    <h5>Product Handover</h5>
+                    <p>Lorem ipsum dolor sit amet, co nsectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+            </div>
+        </div>
+     </div>
+  </div>
+</section>
+<!-- end work -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- start case-study -->
+<section class="case-study">
+    <div class="container">
+        <div class="case-study-head">
+            <span>Case Studies</span>
+            <h2>Have A Look Our Work Showcase</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+        </div>
+        <div class="taps">
+            <ul class="list-unstyled">
+                <li class="active">All</li>
+                <li>Design</li>
+                <li>Development</li>
+                <li>Cyber Security</li>
+            </ul>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-4 col-sm-6">
+                <div class="taps-section mb-5">
+                    <div class="taps-section-img">
+                        <a href="#">
+                         <img src="../../../assets/images/c1.jpg" class="img-fluid">
+                       </a>
+                    </div>
+                    <div class="taps-section-info">
+                        <a href="#">
+                         <h5>Joe’s Company Software Development Case</h5>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, coloni is to nsectetur adipiscing elit, sed do eiudvi smod tempor incididunt ipsum dolor.</p>
+                        <a href="#" class="hov">View Project Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="taps-section">
+                    <div class="taps-section-img">
+                        <a href="#">
+                            <img src="../../../assets/images/c2.jpg" class="img-fluid">
+                          </a>
+                    </div>
+                    <div class="taps-section-info">
+                        <a href="#">
+                         <h5>Ride Share App UX Studies & Development Case</h5>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, coloni is to nsectetur adipiscing elit, sed do eiudvi smod tempor incididunt ipsum dolor.</p>
+                        <a href="#" class="hov">View Project Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="taps-section">
+                    <div class="taps-section-img">
+                        <a href="#">
+                            <img src="../../../assets/images/c3.jpg" class="img-fluid">
+                          </a>
+                    </div>
+                    <div class="taps-section-info">
+                        <a href="#">
+                         <h5>Restaurant Management & Web Developing</h5>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, coloni is to nsectetur adipiscing elit, sed do eiudvi smod tempor incididunt ipsum dolor.</p>
+                        <a href="#" class="hov">View Project Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="taps-section">
+                    <div class="taps-section-img">
+                        <a href="#">
+                            <img src="../../../assets/images/c4.jpg" class="img-fluid">
+                          </a>
+                    </div>
+                    <div class="taps-section-info">
+                        <a href="#">
+                         <h5>IT Software Company Development Case</h5>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, coloni is to nsectetur adipiscing elit, sed do eiudvi smod tempor incididunt ipsum dolor.</p>
+                        <a href="#" class="hov">View Project Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="taps-section">
+                    <div class="taps-section-img">
+                        <a href="#">
+                            <img src="../../../assets/images/c5.jpg" class="img-fluid">
+                          </a>
+                    </div>
+                    <div class="taps-section-info">
+                        <a href="#">
+                         <h5>Temperature App UX Studies & Development Case</h5>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, coloni is to nsectetur adipiscing elit, sed do eiudvi smod tempor incididunt ipsum dolor.</p>
+                        <a href="#" class="hov">View Project Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="taps-section">
+                    <div class="taps-section-img">
+                        <a href="#">
+                            <img src="../../../assets/images/c6.jpg" class="img-fluid">
+                          </a>
+                    </div>
+                    <div class="taps-section-info">
+                        <a href="#">
+                         <h5>Parking Management & Web Developing</h5>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, coloni is to nsectetur adipiscing elit, sed do eiudvi smod tempor incididunt ipsum dolor.</p>
+                        <a href="#" class="hov">View Project Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end case-study -->
+
+
+
+
+<!-- start feature -->
+<section class="feature">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <span>feature</span>
+                <h2>We Have Also Some Features That Provided by Aiva</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consectetur, beatae quod eaque reprehenderit non ab quibusdam doloribus voluptatibus! Voluptatum aspernatur quasi id dolore doloremque quo vero</p>
+
+
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-check-circle"></i>Freelancing Traning Course</li>
+                    <li><i class="fas fa-check-circle"></i>Technological Consultation</li>
+                    <li><i class="fas fa-check-circle"></i>Monthly Paid Workspace</li>
+                    <li><i class="fas fa-check-circle"></i>IT Learning Institute</li>
+                    <li><i class="fas fa-check-circle"></i>Digital Marketing</li>
+                </ul>
+
+
+                <div>
+                    <a href="contact">Lets Talk!</a>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12">
+                <img src="../../../assets/images/feature-img.png" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end feature -->
+
+
+
+<!-- start member -->
+<section class="member">
+    <div class="container">
+        <div class="member-head">
+            <span>Team Members</span>
+            <h2>People Who Are Behind The Achievements</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+        </div>
+        <div class="slider1">
+            <ngx-slick-carousel class="carousel" 
+            #slickModal="slick-carousel" 
+            [config]="slideConfig" >
+
+            <div class="slide-part" ngxSlickItem *ngFor="let slide of slide1Collection" class="slide">
+                <div class="slide-img">
+                    <img src="{{slide.img}}" class="img-fluid">
+                </div>
+                <div class="slide-info">
+                    <div class="per-info">
+                        <h4>{{slide.name}}</h4>
+                        <span>{{slide.desc}}</span>
+                    </div>
+                    <div class="icon">
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle"></i></li>
+                            <li><i class="fas fa-check-circle"></i></li>
+                            <li><i class="fas fa-check-circle"></i></li>
+                            <li><i class="fas fa-check-circle"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </ngx-slick-carousel>
+        </div>
+    </div>
+</section>
+<!-- end member -->
+
+<!-- start blog -->
+<section class="blog">
+    <div class="container">
+        <div class="blog-head">
+            <span>Blog Post</span>
+            <h2>Our Regular Blogs</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis vel consequatur tempora atque blanditiis exercitationem incidunt, alias corporis quam assumenda dicta.</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="blog-post">
+                   <a href="#"> <img src="../../../assets/images/1.jpg" class="img-fluid"></a>
+                    <div class="blog-post-info">
+                        <ul class="list-unstyled">
+                            <li>10 April 2020</li>
+                            <li><a href="#">By Admin</a></li>
+                        </ul>
+                        <a href="#"><h5>Joe’s Company Software Development Case</h5></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas in fugit minima modi perspiciatis nam aspernatur porro</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="blog-post">
+                    <a href="#"><img src="../../../assets/images/5.jpg" class="img-fluid"></a>
+                     <div class="blog-post-info">
+                        <ul class="list-unstyled">
+                            <li>10 April 2020</li>
+                            <li><a href="#">By Admin</a></li>
+                        </ul>
+                        <a href="#"><h5>Temperature App UX Studies & Development Case</h5></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas in fugit minima modi perspiciatis nam aspernatur porro</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="blog-post">
+                    <a href="#"><img src="../../../assets/images/3.jpg" class="img-fluid"></a> 
+                       <div class="blog-post-info">
+                        <ul class="list-unstyled">
+                            <li>10 April 2020</li>
+                            <li><a href="#">By Admin</a></li>
+                        </ul>
+                        <a href="#"><h5>IT Software Company Development Case</h5></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas in fugit minima modi perspiciatis nam aspernatur porro</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end blog -->
+
+
+
+<!-- start contact  -->
+<section class="contact">
+  <div class="container">
+    <div class="contact-head">
+        <span>Contact Us</span>
+        <h2>Let Us Know About Your Project Idea!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis vel consequatur tempora atque blanditiis exercitationem incidunt, alias corporis quam assumenda dicta.</p>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="../../../assets/images/contact-img.png" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+            <div class="contact-form">
+                <form>
+                    <div class="col-lg-12">
+                     <input type="text" placeholder="Your Name">
+                    </div>
+                    <div class="col-lg-12">
+                     <input type="email" placeholder="Your Email">
+                    </div>
+                    <div class="col-lg-12">
+                      <input type="tel" placeholder="Your Phone">
+                    </div>
+                    <div class="col-lg-12">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="col-lg-12">
+                        <textarea placeholder="Your Message" rows="5"></textarea>
+                    </div>
+                    <div class="col-lg-12 text-center">
+                        <button>Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+<!-- end contact  -->
+<app-footer></app-footer>

@@ -1,0 +1,42 @@
+<app-top-nav></app-top-nav>
+<app-main-nav></app-main-nav>
+<section class="about-head">
+    <img src="../../../assets/images/11.png">
+    <img src="../../../assets/images/13.png">
+    <img src="../../../assets/images/14.png">
+    <img src="../../../assets/images/15.png">
+    <img src="../../../assets/images/16.png">
+    <div class="container">
+        <h2>Solutions</h2>
+        <ul class="list-unstyled">
+            <li><a href="home-one">Home</a></li>
+            <li>Solutions</li>
+        </ul>
+    </div>
+</section>
+
+<!-- start avia-provide -->
+<section class="avia-provide">
+    <div class="container">
+     <div class="provide-head">
+         <span>Smart Services</span>
+         <h2>Aiva Provide All Kind Of Tech Solutions</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+     </div>
+
+     <div class="row">
+         <div class="col-lg-4 col-md-6" *ngFor="let coll of collection">
+             <div class="part">
+             <img src="{{coll.img}}">
+             <h5>{{coll.title}}</h5>
+             <p>{{coll.desc}}</p>
+             <a href="#">Read More</a>
+          </div>
+         </div>
+     </div>
+   </div>
+</section>
+<!-- end avia-provide -->
+
+
+<app-footer></app-footer>

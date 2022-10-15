@@ -1,0 +1,149 @@
+.about-head{
+    background: #051242 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    img{
+        position: absolute;
+    }
+    img:first-child{
+        top: 20px;
+        left: 50px;
+    }
+    img:nth-child(2){
+        top: 270px;
+        left: 264px;
+    }
+    img:nth-child(3){
+        top: 300px;
+    }
+    img:nth-child(4){
+        top: 132px;
+        right: 447px;
+    }
+    img:nth-child(5){
+        top: 300px;
+        right: 400px;
+    }
+    h2{
+        color: #fff;
+        font-size: 40px;
+    }
+    ul{
+        li{
+            display: inline-block;
+            margin:0 20px;
+            color:#7b88b7;
+            a{
+                text-decoration: none;
+                color: #fff;
+                position: relative;
+                transition: all .4s ease;
+                &:hover{
+                    color: #7b88b7;
+                }
+            }
+        }
+        li:last-child{
+            position: relative;
+            &:after{
+                content: "";
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                background: #fff;
+                top: 7px;
+                right: 110px;
+             }
+        }
+    }
+}
+
+
+
+// start case-study
+.case-study{
+    padding: 100px 0;
+    .case-study-head{
+        width: 80%;
+        margin: 0 auto 60px;
+        text-align: center;
+        
+        span{
+            color: #476bef;
+        }
+        h2{
+            color: #293a5c;
+            font-size: 40px;
+            margin-bottom: 25px;
+            @media(max-width:768px){
+                font-size: 30px;
+                margin-bottom: 10px;
+            }
+        }
+        p{
+            color: #86898e;
+        }
+    }
+    .taps{
+        ul{
+            text-align: center;
+            border-bottom: 1px solid #b5aeae;
+            li{
+                display: inline-block;
+                margin:0 20px 10px 0;
+                color: #50607f;
+                font-size: 16px;
+                font-weight: 500;
+                position: relative;
+                cursor: pointer;
+            }
+        }
+    }
+    .taps-section{
+        transition: all .8s ease;
+        box-shadow: 0 0 20px 3px rgba(0,0,0,.05);
+        a:first-child{
+            font-weight: 600;
+        }
+        a{
+            text-decoration: none;
+            color: #293a5c;
+        }
+        .taps-section-img{
+            img{
+                border-radius: 5px 5px 0 0;
+            }
+        }
+        .taps-section-info{
+            padding: 20px;
+            p{
+                color: #7a7e9a;
+            }
+        }
+        .hov{
+            transition: all .6s ease;
+            &:hover{
+                letter-spacing: 1.3px;
+            }
+        }
+        &:hover{
+            transform: translateY(-10px);
+        }
+    }
+    .active{
+        &:after{
+            position: absolute;
+            width: 100%;
+            height: 7px;
+            background: #1d42d9;
+            content: "";
+            bottom: -14px;
+            right: 0;
+        }
+    }
+}
+// end case-study

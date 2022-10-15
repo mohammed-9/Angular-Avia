@@ -1,0 +1,445 @@
+<app-top-nav></app-top-nav>
+<app-main-nav></app-main-nav>
+<section class="banar">
+    <ngx-slick-carousel class="carousel" 
+    #slickModal="slick-carousel" 
+    [config]="slideConfig" >
+    <div class="slide-part" ngxSlickItem *ngFor="let slide of slideCollec2" class="slide">
+        <div class="slider2">
+            <div>
+                <img src="{{slide.img}}" class="img-fluid">
+            </div>
+            <div>
+                <h2>{{slide.head}}</h2>
+                <p>{{slide.para}}</p>
+                <div class="box-btn">
+                    <a href="#">Lets Talke!</a>
+                </div>
+                <div class="box-btn">
+                    <a href="#"  class="box-btn-link">Know More!</a>
+                </div>
+            </div>
+        </div> 
+        </div>   
+    </ngx-slick-carousel>
+</section>
+
+
+<!-- start about-us -->
+<section class="three-part">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-6">
+                <div class="main-part">
+                    <img src="../../../assets/images/i1 (1).jpg" class="img-fluid">
+                    <div class="part-info">
+                        <i class="far fa-address-card"></i>
+                        About Us
+                    </div>
+                    <a href="#">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="main-part">
+                    <img src="../../../assets/images/i2 (1).jpg" class="img-fluid">
+                    <div class="part-info">
+                        <i class="far fa-address-card"></i>
+                        Our Vision
+                    </div>
+                    <a href="#">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="main-part">
+                    <img src="../../../assets/images/i3 (1).jpg" class="img-fluid">
+                    <div class="part-info">
+                        <i class="far fa-address-card"></i>
+                        Our Gole
+                    </div>
+                    <a href="#">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+  
+        </div>
+    </div>
+</section>
+<!-- end about-us -->
+
+<!-- start smart-service -->
+<section class="avia-provide">
+    <div class="container">
+     <div class="provide-head">
+         <span>Smart Services</span>
+         <h2>Aiva Provide All Kind Of Tech Solutions</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+     </div>
+
+     <div class="row">
+         <div class="col-lg-4 col-md-6" *ngFor="let coll of collection">
+             <div class="part">
+             <img src="{{coll.img}}">
+             <h5>{{coll.title}}</h5>
+             <p>{{coll.desc}}</p>
+             <a href="#">Read More</a>
+          </div>
+         </div>
+     </div>
+   </div>
+</section>
+<!-- start smart-service -->
+<!-- start work -->
+<section class="work-process">
+    <div class="container"> 
+      <div class="work-head">
+         <span>Working Process</span>
+         <h2>We Are Popular Because Of Our Way Of Working</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+      </div>
+      <div class="row">
+         <div class="col-lg-3 col-md-6 col-md-6">
+             <div class="work-part">
+                 <div class="work-icon">
+                     <img src="../../../assets/images/p1.png">
+                     <div class="d-none d-lg-block">
+                         <img src="../../../assets/images/next.png">
+                     </div>
+                 </div>
+                 <div class="work-info">
+                     <h5>Research Product</h5>
+                     <p>Lorem ipsum dolor sit amet, co nsectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                 </div>
+             </div>
+         </div>
+         <div class="col-lg-3 col-md-6 col-md-6">
+             <div class="work-part">
+                 <div class="work-icon">
+                     <img src="../../../assets/images/p2.png">
+                     <div class="d-none d-lg-block">
+                         <img src="../../../assets/images/next.png">
+                     </div>
+                 </div>
+                 <div class="work-info">
+                     <h5>User Testing</h5>
+                     <p>Lorem ipsum dolor sit amet, co nsectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                 </div>
+             </div>
+         </div>
+         <div class="col-lg-3 col-md-6 col-md-6">
+             <div class="work-part">
+                 <div class="work-icon">
+                     <img src="../../../assets/images/p3.png">
+                     <div class="d-none d-lg-block">
+                         <img src="../../../assets/images/next.png">
+                     </div>
+                 </div>
+                 <div class="work-info">
+                     <h5>Development</h5>
+                     <p>Lorem ipsum dolor sit amet, co nsectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                 </div>
+             </div>
+         </div>
+         <div class="col-lg-3 col-md-6 col-md-6">
+             <div class="work-part">
+                 <div class="work-icon">
+                     <img src="../../../assets/images/p4.png">
+                 </div>
+                 <div class="work-info">
+                     <h5>Product Handover</h5>
+                     <p>Lorem ipsum dolor sit amet, co nsectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                 </div>
+             </div>
+         </div>
+      </div>
+   </div>
+ </section>
+ <!-- end work -->
+
+
+
+ <!-- start update -->
+ <section class="update">
+     <div class="container">
+         <div class="row">
+             <div class="col-lg-6">
+                 <div class="update-vedio">
+                     <img src="../../../assets/images/choose-img1 (1).jpg" class="img-fluid">
+                     <span>
+                         <a href="#"><i class="fas fa-play"></i></a>
+                     </span>
+                 </div>
+             </div>
+             <div class="col-lg-6">
+                 <h2>Updated Technology</h2>
+                 <p>You need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with.</p>
+                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going There are many variations of passages of Lorem Ipsum available, but the.</p>
+                 <div>
+                     <a href="#">Contact Us</a>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+ <!-- end update -->
+ 
+<!-- start case-study -->
+<section class="case-study">
+    <div class="container">
+        <div class="case-study-head">
+            <span>Case Studies</span>
+            <h2>Have A Look Our Work Showcase</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+        </div>
+        <div class="taps">
+            <ul class="list-unstyled">
+                <li class="active">All</li>
+                <li>Design</li>
+                <li>Development</li>
+                <li>Cyber Security</li>
+            </ul>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-4 col-md-6">
+                <div class="taps-section mb-4">
+                    <div class="taps-section-img">
+                        <a href="#">
+                         <img src="../../../assets/images/c1.jpg" class="img-fluid">
+                       </a>
+                    </div>
+                    <div class="taps-section-info">
+                        <a href="#">
+                         <h5>Joe’s Company Software Development Case</h5>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, coloni is to nsectetur adipiscing elit, sed do eiudvi smod tempor incididunt ipsum dolor.</p>
+                        <a href="#" class="hov">View Project Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="taps-section mb-4">
+                    <div class="taps-section-img">
+                        <a href="#">
+                            <img src="../../../assets/images/c2.jpg" class="img-fluid">
+                          </a>
+                    </div>
+                    <div class="taps-section-info">
+                        <a href="#">
+                         <h5>Ride Share App UX Studies & Development Case</h5>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, coloni is to nsectetur adipiscing elit, sed do eiudvi smod tempor incididunt ipsum dolor.</p>
+                        <a href="#" class="hov">View Project Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="taps-section mb-4">
+                    <div class="taps-section-img">
+                        <a href="#">
+                            <img src="../../../assets/images/c3.jpg" class="img-fluid">
+                          </a>
+                    </div>
+                    <div class="taps-section-info">
+                        <a href="#">
+                         <h5>Restaurant Management & Web Developing</h5>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, coloni is to nsectetur adipiscing elit, sed do eiudvi smod tempor incididunt ipsum dolor.</p>
+                        <a href="#" class="hov">View Project Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="taps-section mb-4">
+                    <div class="taps-section-img">
+                        <a href="#">
+                            <img src="../../../assets/images/c4.jpg" class="img-fluid">
+                          </a>
+                    </div>
+                    <div class="taps-section-info">
+                        <a href="#">
+                         <h5>IT Software Company Development Case</h5>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, coloni is to nsectetur adipiscing elit, sed do eiudvi smod tempor incididunt ipsum dolor.</p>
+                        <a href="#" class="hov">View Project Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="taps-section mb-4">
+                    <div class="taps-section-img">
+                        <a href="#">
+                            <img src="../../../assets/images/c5.jpg" class="img-fluid">
+                          </a>
+                    </div>
+                    <div class="taps-section-info">
+                        <a href="#">
+                         <h5>Temperature App UX Studies & Development Case</h5>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, coloni is to nsectetur adipiscing elit, sed do eiudvi smod tempor incididunt ipsum dolor.</p>
+                        <a href="#" class="hov">View Project Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="taps-section mb-4">
+                    <div class="taps-section-img">
+                        <a href="#">
+                            <img src="../../../assets/images/c6.jpg" class="img-fluid">
+                          </a>
+                    </div>
+                    <div class="taps-section-info">
+                        <a href="#">
+                         <h5>Parking Management & Web Developing</h5>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, coloni is to nsectetur adipiscing elit, sed do eiudvi smod tempor incididunt ipsum dolor.</p>
+                        <a href="#" class="hov">View Project Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end case-study -->
+<!-- start member -->
+<section class="member">
+    <div class="container">
+        <div class="member-head">
+            <span>Team Members</span>
+            <h2>People Who Are Behind The Achievements</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+        </div>
+        <div class="slider1">
+            <ngx-slick-carousel class="carousel" 
+            #slickModal="slick-carousel" 
+            [config]="slideConf" >
+
+            <div class="slide-part" ngxSlickItem *ngFor="let slide of slide1Collection" class="slide">
+                <div class="slide-img">
+                    <img src="{{slide.img}}" class="img-fluid">
+                </div>
+                <div class="slide-info">
+                    <div class="per-info">
+                        <h4>{{slide.name}}</h4>
+                        <span>{{slide.desc}}</span>
+                    </div>
+                    <div class="icon">
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle"></i></li>
+                            <li><i class="fas fa-check-circle"></i></li>
+                            <li><i class="fas fa-check-circle"></i></li>
+                            <li><i class="fas fa-check-circle"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </ngx-slick-carousel>
+        </div>
+    </div>
+</section>
+<!-- end member -->
+
+
+
+<!-- start blog -->
+<section class="blog">
+    <div class="container">
+        <div class="blog-head">
+            <span>Blog Post</span>
+            <h2>Our Regular Blogs</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis vel consequatur tempora atque blanditiis exercitationem incidunt, alias corporis quam assumenda dicta.</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="blog-post">
+                   <a href="#"> <img src="../../../assets/images/1.jpg" class="img-fluid"></a>
+                    <div class="blog-post-info">
+                        <ul class="list-unstyled">
+                            <li>10 April 2020</li>
+                            <li><a href="#">By Admin</a></li>
+                        </ul>
+                        <a href="#"><h5>Joe’s Company Software Development Case</h5></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas in fugit minima modi perspiciatis nam aspernatur porro</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="blog-post">
+                    <a href="#"><img src="../../../assets/images/5.jpg" class="img-fluid"></a>
+                     <div class="blog-post-info">
+                        <ul class="list-unstyled">
+                            <li>10 April 2020</li>
+                            <li><a href="#">By Admin</a></li>
+                        </ul>
+                        <a href="#"><h5>Temperature App UX Studies & Development Case</h5></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas in fugit minima modi perspiciatis nam aspernatur porro</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="blog-post">
+                    <a href="#"><img src="../../../assets/images/3.jpg" class="img-fluid"></a> 
+                       <div class="blog-post-info">
+                        <ul class="list-unstyled">
+                            <li>10 April 2020</li>
+                            <li><a href="#">By Admin</a></li>
+                        </ul>
+                        <a href="#"><h5>IT Software Company Development Case</h5></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas in fugit minima modi perspiciatis nam aspernatur porro</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end blog -->
+
+<!-- start contact  -->
+<section class="contact">
+    <div class="container">
+      <div class="contact-head">
+          <span>Contact Us</span>
+          <h2>Let Us Know About Your Project Idea!</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis vel consequatur tempora atque blanditiis exercitationem incidunt, alias corporis quam assumenda dicta.</p>
+      </div>
+      <div class="row">
+          <div class="col-lg-6">
+              <div class="contact-form">
+                  <form>
+                      <div class="col-lg-12">
+                       <input type="text" placeholder="Your Name">
+                      </div>
+                      <div class="col-lg-12">
+                       <input type="email" placeholder="Your Email">
+                      </div>
+                      <div class="col-lg-12">
+                        <input type="tel" placeholder="Your Phone">
+                      </div>
+                      <div class="col-lg-12">
+                          <input type="text" placeholder="Subject">
+                      </div>
+                      <div class="col-lg-12">
+                          <textarea placeholder="Your Message" rows="5"></textarea>
+                      </div>
+                      <div class="col-lg-12 text-center">
+                          <button>Submit</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="../../../assets/images/contact-img2.jpg" class="img-fluid d-sm-block d-lg-none mt-5">
+            <div class="contact-img d-none d-lg-block"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- end contact  -->
+ <app-footer></app-footer>
